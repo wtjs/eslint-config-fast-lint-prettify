@@ -1,0 +1,9 @@
+{
+  "name": "eslint-config-fast-lint-prettify",
+  "version": "0.0.1",
+  "description": "One package to lint and prettify them all",
+  "main": "index.js",
+  "author": "Divyanshu Maithani <div.blackcat@gmail.com> (https://github.com/divyanshu013)",
+  "license": "MIT",
+  "private": false
+}
