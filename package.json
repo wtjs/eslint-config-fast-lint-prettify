@@ -1,5 +1,6 @@
 {
   "name": "eslint-config-fast-lint-prettify",
+  "keywords": ["eslint", "prettier", "javascript"],
   "version": "0.0.1",
   "description": "One package to lint and prettify them all",
   "main": "index.js",
