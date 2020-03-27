@@ -8,17 +8,17 @@ This config includes `eslint`, `prettier` and all relevant plugins and configs t
 
 Includes:
 
--   `eslint`
--   `babel-eslint`
--   `eslint-config-airbnb`
--   `eslint-config-prettier`
--   `eslint-plugin-import`
--   `eslint-plugin-jest`
--   `eslint-plugin-jsx-a11y`
--   `eslint-plugin-prettier`
--   `eslint-plugin-react`
--   `eslint-plugin-react-hooks`
--   `prettier`
+- `eslint`
+- `babel-eslint`
+- `eslint-config-airbnb`
+- `eslint-config-prettier`
+- `eslint-plugin-import`
+- `eslint-plugin-jest`
+- `eslint-plugin-jsx-a11y`
+- `eslint-plugin-prettier`
+- `eslint-plugin-react`
+- `eslint-plugin-react-hooks`
+- `prettier`
 
 ## Usage
 
@@ -39,9 +39,19 @@ yarn add -DE eslint-config-fast-lint-prettify
 3. Create a `.prettierrc.js` file in your project root and add:
 
 ```js
-const prettier = require('eslint-config-fast-lint-prettify/.prettierrc');
+const prettier = require('eslint-config-fast-lint-prettify/prettier');
+
+// You can also overwrite some keys in this config
 
 module.exports = prettier;
+```
+
+**Alternatively**, in your `package.json` file add the following key:
+
+```json
+{
+	"prettier": "eslint-config-fast-lint-prettify/prettier"
+}
 ```
 
 4. Also recommended to add an `.editorconfig` file at the project root:
