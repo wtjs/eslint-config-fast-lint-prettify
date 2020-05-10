@@ -1,5 +1,11 @@
 const eslint = {
-	extends: ['airbnb', 'plugin:jest/recommended', 'prettier', 'plugin:prettier/recommended'],
+	extends: [
+		'airbnb',
+		'plugin:jest/recommended',
+		'prettier',
+		'prettier/react',
+		'plugin:prettier/recommended',
+	],
 	plugins: ['jest', 'prettier'],
 	parser: 'babel-eslint',
 	rules: {
